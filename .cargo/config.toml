@@ -1,0 +1,8 @@
+[alias]
+
+# base alias for xtask
+xtask = "run --package xtask --release --"
+
+#custom bundling aliases
+bundle = "run --package xtask -- bundle test_plugin"
+bd = "run --package xtask -- bundle test_plugin"
